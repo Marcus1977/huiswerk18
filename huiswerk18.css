@@ -1,0 +1,97 @@
+/* header opmaken */
+header {
+  background-image: url("afbeeldingen/stadhuis.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 4em;
+  text-shadow: 2px 2px 2px #000;
+  text-align: right;
+  margin-right: 20px;
+}
+
+/* grids */
+  [class*="col-"] {
+  width: 100%;
+  }
+  @media only screen and (min-width: 768px) {
+  [class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  }
+
+/* lijst */
+.list {
+  width: 100%;
+  height: auto;
+}
+
+/* kleur en positie col-9 */
+.kleur {
+  background-color: #FFF;
+  float: right;
+}@media only screen and (min-width: 768px) {
+.kleur {
+  background-color: #f7f0ea;
+}
+}
+
+/* afbeelding inhoud */
+img {
+  float: right;
+}
+
+/* min hoogte bovenste div */
+.hoogte {
+  min-height: 120px;
+}
+
+/* contactformulier */
+input[type="text"], input[type="email"],
+input[type="submit"], input[type="tel"]
+ {
+  width: 300px;
+  height: 20px;
+  display: block;
+  margin: 5px 0px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="submit"]:active
+{
+  background-color: #b4d4f1;
+
+}
+
+fieldset {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* footer opmaken */
+footer {
+  clear: both;
+  height: 300px;
+  background-color: #b4d4f1;
+  padding-top: 15px;
+}
